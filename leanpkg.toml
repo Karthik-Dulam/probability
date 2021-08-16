@@ -1,0 +1,8 @@
+[package]
+name = "probability"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.32.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "59954c195b3d4da27eba6a35eea70f5e1ac9f203"}
